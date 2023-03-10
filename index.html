@@ -8,10 +8,10 @@
 <title>Audio samples | mri-to-speech-demo</title>
 <meta name="keywords" content="">
 <meta name="description" content="Our implementation is available in the repository.
-ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-TIMIT MRI database Sample Original Predicted 18 84 104 198 ">
+ATR 503 sentences rtMRI database Sample Original Predicted F0 trajectory J20 J27 J38 J39 J49 USC-TIMIT MRI database Sample Original Predicted F0 trajectory 18 84 88 104 198 ">
 <meta name="author" content="">
 <link rel="canonical" href="https://y-otn.github.io/mri-to-speech-demo/">
-<link crossorigin="anonymous" href="/mri-to-speech-demo/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/mri-to-speech-demo/assets/css/stylesheet.277e58a6367b09d10bf53c189866ab954dd31ade441a4a538e0ff3a6d535554b.css" integrity="sha256-J35YpjZ7CdEL9TwYmGarlU3TGt5EGkpTjg/zptU1VUs=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/mri-to-speech-demo/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://y-otn.github.io/mri-to-speech-demo/favicon.ico">
@@ -59,7 +59,7 @@ ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-T
     </style>
 </noscript><meta property="og:title" content="Audio samples" />
 <meta property="og:description" content="Our implementation is available in the repository.
-ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-TIMIT MRI database Sample Original Predicted 18 84 104 198 " />
+ATR 503 sentences rtMRI database Sample Original Predicted F0 trajectory J20 J27 J38 J39 J49 USC-TIMIT MRI database Sample Original Predicted F0 trajectory 18 84 88 104 198 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://y-otn.github.io/mri-to-speech-demo/" /><meta property="article:section" content="" />
 
@@ -68,7 +68,7 @@ ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-T
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Audio samples"/>
 <meta name="twitter:description" content="Our implementation is available in the repository.
-ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-TIMIT MRI database Sample Original Predicted 18 84 104 198 "/>
+ATR 503 sentences rtMRI database Sample Original Predicted F0 trajectory J20 J27 J38 J39 J49 USC-TIMIT MRI database Sample Original Predicted F0 trajectory 18 84 88 104 198 "/>
 
 
 <script type="application/ld+json">
@@ -91,12 +91,12 @@ ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-T
   "@type": "BlogPosting",
   "headline": "Audio samples",
   "name": "Audio samples",
-  "description": "Our implementation is available in the repository.\nATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-TIMIT MRI database Sample Original Predicted 18 84 104 198 ",
+  "description": "Our implementation is available in the repository.\nATR 503 sentences rtMRI database Sample Original Predicted F0 trajectory J20 J27 J38 J39 J49 USC-TIMIT MRI database Sample Original Predicted F0 trajectory 18 84 88 104 198 ",
   "keywords": [
     
   ],
-  "articleBody": "Our implementation is available in the repository.\nATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-TIMIT MRI database Sample Original Predicted 18 84 104 198 ",
-  "wordCount" : "29",
+  "articleBody": "Our implementation is available in the repository.\nATR 503 sentences rtMRI database Sample Original Predicted F0 trajectory J20 J27 J38 J39 J49 USC-TIMIT MRI database Sample Original Predicted F0 trajectory 18 84 88 104 198 ",
+  "wordCount" : "35",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -179,28 +179,39 @@ ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-T
 <th style="text-align:center">Sample</th>
 <th style="text-align:center">Original</th>
 <th style="text-align:center">Predicted</th>
+<th style="text-align:center">F<sub>0</sub> trajectory</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">J20</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/orig/j20.WAV" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/pred/j20_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/atr/j20_ce.mp4" controls></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/atr/pred/j20_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/atr/j20.WAV.svg" type="image/svg+xml"></object></td>
 </tr>
 <tr>
 <td style="text-align:center">J27</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/orig/j27.WAV" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/pred/j27_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/atr/j27_ce.mp4" controls></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/atr/pred/j27_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/atr/j27.WAV.svg" type="image/svg+xml"></object></td>
 </tr>
 <tr>
 <td style="text-align:center">J38</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/orig/j38.WAV" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/pred/j38_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/atr/j38_ce.mp4" controls></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/atr/pred/j38_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/atr/j38.WAV.svg" type="image/svg+xml"></object></td>
+</tr>
+<tr>
+<td style="text-align:center">J39</td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/atr/j39_ce.mp4" controls></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/atr/pred/j39_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/atr/j39.WAV.svg" type="image/svg+xml"></object></td>
 </tr>
 <tr>
 <td style="text-align:center">J49</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/orig/j49.WAV" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/atr/pred/j49_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/atr/j49_ce.mp4" controls></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/atr/pred/j49_generated_e2e.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/atr/j49.WAV.svg" type="image/svg+xml"></object></td>
 </tr>
 </tbody>
 </table>
@@ -211,28 +222,39 @@ ATR 503 sentences rtMRI database Sample Original Predicted J20 J27 J38 J49 USC-T
 <th style="text-align:center">Sample</th>
 <th style="text-align:center">Original</th>
 <th style="text-align:center">Predicted</th>
+<th style="text-align:center">F<sub>0</sub> trajectory</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">18</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/orig/usctimit_mri_m3_016_020_dn_0.wav" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/pred/usctimit_mri_m3_016_020_generated_e2e_0.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/usc/usctimit_mri_m3_016_020_dn_0.mp4" controls width="256"></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/usc/pred/usctimit_mri_m3_016_020_generated_e2e_0.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/usc/usctimit_mri_m3_016_020_dn_0.wav.svg" type="image/svg+xml"></object></td>
 </tr>
 <tr>
 <td style="text-align:center">84</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/orig/usctimit_mri_m3_071_075_dn_0.wav" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/pred/usctimit_mri_m3_071_075_generated_e2e_0.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/usc/usctimit_mri_m3_071_075_dn_0.mp4" controls width="256"></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/usc/pred/usctimit_mri_m3_071_075_generated_e2e_0.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/usc/usctimit_mri_m3_071_075_dn_0.wav.svg" type="image/svg+xml"></object></td>
+</tr>
+<tr>
+<td style="text-align:center">88</td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/usc/usctimit_mri_m3_071_075_dn_3.mp4" controls width="256"></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/usc/pred/usctimit_mri_m3_071_075_generated_e2e_3.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/usc/usctimit_mri_m3_071_075_dn_3.wav.svg" type="image/svg+xml"></object></td>
 </tr>
 <tr>
 <td style="text-align:center">104</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/orig/usctimit_mri_m3_086_090_dn_1.wav" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/pred/usctimit_mri_m3_086_090_generated_e2e_1.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/usc/usctimit_mri_m3_086_090_dn_1.mp4" controls width="256"></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/usc/pred/usctimit_mri_m3_086_090_generated_e2e_1.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/usc/usctimit_mri_m3_086_090_dn_1.wav.svg" type="image/svg+xml"></object></td>
 </tr>
 <tr>
 <td style="text-align:center">198</td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/orig/usctimit_mri_m3_176_180_dn_0.wav" controls></audio></td>
-<td style="text-align:center"><audio src="/mri-to-speech-demo/usc/pred/usctimit_mri_m3_176_180_generated_e2e_0.wav" controls></audio></td>
+<td style="text-align:center"><video src="/mri-to-speech-demo/video/usc/usctimit_mri_m3_176_180_dn_0.mp4" controls width="256"></video></td>
+<td style="text-align:center"><audio src="/mri-to-speech-demo/audio/usc/pred/usctimit_mri_m3_176_180_generated_e2e_0.wav" controls></audio></td>
+<td style="text-align:center"><object data="/mri-to-speech-demo/plot/usc/usctimit_mri_m3_176_180_dn_0.wav.svg" type="image/svg+xml"></object></td>
 </tr>
 </tbody>
 </table>
